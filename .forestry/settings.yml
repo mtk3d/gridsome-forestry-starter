@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: document
-  path: path
-  label: example
-  match: "**/*"
-  read_only: true
 - type: directory
   path: journal
   label: Journal
